@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://code.s3.yandex.net/web-code/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Zinchuk Mikhail's Portfolio" />
+    <meta name="keywords" content="html, css, javascript" />
+    <meta name="author" content="Zinchuk Mikhail" />
+  </head>
+
+  <body class="page">
+    <header class="header centered-block">
+      <h1 class="centered-block">
+        <a href="#" class="header__link" lang="en">Zinchuk Mikhail</a>
+      </h1>
+    </header>
+    <nav class="menu centered-block page__menu">
+      <a href="#beginner" class="menu__link menu__link_active"
+        >First steps in HTML & CSS</a
+      >
+      <a href="#frameworks" class="menu__link">JavaScript Libraries</a>
+      <a href="#practice" class="menu__link"
+        >Practicing HTML, CSS & JavaScript</a
+      >
+    </nav>
+    <main class="content centered-block">
+      <section id="beginner">
+        <h2 class="content__title">First steps in HTML & CSS</h2>
+        <!-- <ul class="flex-row list flex-row_space_bottom">
+          <li
+            class="project project_name_organick project_width_l project_height_l"
+          >
+            <a
+              href="https://mikzin.github.io/organick/"
+              class="project__overlay"
+              target="_blank"
+              >Organick Project</a
+            >
+          </li>
+          <li
+            class="project project_name_omnifood project_width_l project_height_l"
+          >
+            <a
+              href="https://mikzin.github.io/omnifood/"
+              class="project__overlay"
+              target="_blank"
+              >Omnifood Project</a
+            >
+          </li>
+        </ul> -->
+        <div>
+          <ul class="flex-row list">
+            <li class="project project_width_l project_height_l">
+              <a
+                href="https://mikzin.github.io/learningresources/"
+                target="_blank"
+              >
+                <video
+                  class="project__video"
+                  src="./img/Organick.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </a>
+            </li>
+            <li class="project project_width_l project_height_l">
+              <a
+                href="https://mikzin.github.io/learningresources/"
+                target="_blank"
+              >
+                <video
+                  class="project__video"
+                  src="./img/Omnifood.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="frameworks">
+        <h2 class="content__title">JavaScript Libraries</h2>
+        <div class="flex-row flex-row_reversed flex-row_space_bottom">
+          <div class="flex-column flex-column_reversed">
+            <div class="project project_width_l project_height_s">
+              <a
+                href="https://mikzin.github.io/learningresources/"
+                target="_blank"
+              >
+                <video
+                  class="project__video"
+                  src="./img/Learning.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </a>
+            </div>
+            <ul class="flex-row list">
+              <!-- <li
+                class="project project_name_learning project_width_l project_height_s"
+              >
+                <a
+                  href="https://mikzin.github.io/learningresources/"
+                  target="_blank"
+                  class="project__overlay"
+                  >Vue Learning</a
+                >
+              </li> -->
+              <li
+                class="project project_name_myfriendlist project_width_m project_height_m"
+              >
+                <a
+                  href="https://mikzin.github.io/friendcontact/"
+                  class="project__overlay"
+                  target="_blank"
+                  >Vue My Friends List App</a
+                >
+              </li>
+              <li
+                class="project project_name_reactive project_width_m project_height_m"
+              >
+                <a
+                  href="https://mikzin.github.io/monsterslayer/"
+                  class="project__overlay"
+                  target="_blank"
+                >
+                  Vue Game</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="project project_width_l project_height_xl">
+            <a href="https://mikzin.github.io/procrastinate/" target="_blank">
+              <video
+                class="project__video"
+                src="https://code.s3.yandex.net/web-code/procrastinate.mov"
+                autoplay
+                muted
+                loop
+              ></video>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="practice">
+        <h2 class="content__title">Practicing HTML, CSS & JavaScript</h2>
+        <ul class="flex-row list">
+          <li
+            class="project project_name_how-to-study project_width_m project_height_m"
+          >
+            <a
+              href="https://mikzin.github.io/how-to-learn/"
+              class="project__overlay"
+              target="_blank"
+              >CSS-animations</a
+            >
+          </li>
+          <li
+            class="project project_name_across-russia project_width_l project_height_m"
+          >
+            <a
+              href="https://mikzin.github.io/russian-travel/"
+              class="project__overlay"
+              target="_blank"
+              >Adaptive Layout</a
+            >
+          </li>
+          <li
+            class="project project_name_mesto project_width_m project_height_m"
+          >
+            <a
+              href="https://mikzin.github.io/mesto/"
+              class="project__overlay"
+              target="_blank"
+              >JavaScript App</a
+            >
+          </li>
+          <li
+            class="project project_name_todo project_width_l project_height_m"
+          >
+            <a
+              href="https://mikzin.github.io/russian-travel/"
+              class="project__overlay"
+              target="_blank"
+              >Todo List</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer centered-block">
+      <div class="footer__logo"></div>
+    </footer>
+  </body>
+</html>
