@@ -1,6 +1,8 @@
 .page {
-  font-family: 'Cormorant Garamond';
-  background-color: rgb(196, 208, 249);
+  font-family: 'Jost';
+  background-color: #f8f0fc;
+  color: white;
+  margin: 0;
 }
 
 .page__menu {
@@ -18,16 +20,19 @@
 }
 
 .header {
-  height: 95px;
+  height: 110px;
   display: flex;
   max-width: 1330px;
   min-width: 1280px;
+  background-color: #eebefa;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .header__link {
-  font-size: 28px;
+  font-size: 38px;
   text-decoration: none;
-  color: #10191e;
+  color: white;
 }
 
 .header__link::after {
@@ -62,14 +67,17 @@
   text-decoration: none;
   color: #10191e;
   margin-right: 20px;
+  margin-bottom: 7px;
+}
+
+.menu__link:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  background-color: #eebefa;
 }
 
 .menu__link:last-of-type {
   margin-right: 0;
-}
-
-.menu__link_active {
-  text-decoration: underline;
 }
 
 .content {
@@ -79,8 +87,11 @@
 
 .content__title {
   font-size: 34px;
-  margin: 0 0 40px;
+  margin: 40px 0 40px;
   text-align: center;
+  background-color: #eebefa;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .flex-row {
@@ -214,6 +225,13 @@
   justify-content: center;
   max-width: 1330px;
   min-width: 1280px;
+  background-color: #eebefa;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer h3 {
+  font-size: 28px;
 }
 
 @media screen and (max-width: 1312px) {
