@@ -216,12 +216,39 @@
   min-width: 1280px;
 }
 
-.footer__logo {
-  width: 145px;
-  height: 25px;
-  background-image: url();
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-self: center;
+@media screen and (max-width: 1312px) {
+  .project_width_l {
+    width: 500px;
+  }
+
+  .flex-row {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .page {
+    max-width: 680px;
+  }
+
+  .header {
+    max-width: 680px;
+    min-width: 400px;
+  }
+
+  .menu {
+    flex-direction: column;
+    max-width: 680px;
+    min-width: 400px;
+  }
+
+  .content {
+    max-width: 680px;
+    min-width: 400px;
+  }
+
+  .footer {
+    max-width: 680px;
+    min-width: 400px;
+  }
 }
