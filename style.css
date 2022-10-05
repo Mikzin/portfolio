@@ -279,4 +279,8 @@
   header h1 {
     text-align: center;
   }
+
+  .project_height_l {
+    height: 290px;
+  }
 }
