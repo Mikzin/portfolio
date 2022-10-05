@@ -252,3 +252,31 @@
     min-width: 400px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .page {
+    max-width: 520px;
+  }
+  .content {
+    max-width: 520px;
+    min-width: 400px;
+  }
+
+  .footer {
+    max-width: 520px;
+    min-width: 400px;
+  }
+
+  .project_width_l {
+    width: 306px;
+    align-self: center;
+  }
+
+  .project_height_xl {
+    height: 430px;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+}
